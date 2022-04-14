@@ -13,6 +13,10 @@
 		4312A1FC2808CD2D007F4CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4312A1FA2808CD2D007F4CEE /* Main.storyboard */; };
 		4312A1FE2808CD30007F4CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4312A1FD2808CD30007F4CEE /* Assets.xcassets */; };
 		4312A2012808CD30007F4CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4312A1FF2808CD30007F4CEE /* LaunchScreen.storyboard */; };
+		4312A20D2808CF7B007F4CEE /* 125Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4312A2092808CF7B007F4CEE /* 125Hz.wav */; };
+		4312A20E2808CF7B007F4CEE /* 250Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4312A20A2808CF7B007F4CEE /* 250Hz.wav */; };
+		4312A20F2808CF7B007F4CEE /* 50Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4312A20B2808CF7B007F4CEE /* 50Hz.wav */; };
+		4312A2102808CF7B007F4CEE /* 500Hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4312A20C2808CF7B007F4CEE /* 500Hz.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		4312A1FD2808CD30007F4CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4312A2002808CD30007F4CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4312A2022808CD30007F4CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4312A2092808CF7B007F4CEE /* 125Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 125Hz.wav; sourceTree = "<group>"; };
+		4312A20A2808CF7B007F4CEE /* 250Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 250Hz.wav; sourceTree = "<group>"; };
+		4312A20B2808CF7B007F4CEE /* 50Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 50Hz.wav; sourceTree = "<group>"; };
+		4312A20C2808CF7B007F4CEE /* 500Hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 500Hz.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,20 @@
 				4312A1FD2808CD30007F4CEE /* Assets.xcassets */,
 				4312A1FF2808CD30007F4CEE /* LaunchScreen.storyboard */,
 				4312A2022808CD30007F4CEE /* Info.plist */,
+				4312A2082808CF5B007F4CEE /* Resources */,
 			);
 			path = Audio;
+			sourceTree = "<group>";
+		};
+		4312A2082808CF5B007F4CEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4312A20B2808CF7B007F4CEE /* 50Hz.wav */,
+				4312A2092808CF7B007F4CEE /* 125Hz.wav */,
+				4312A20A2808CF7B007F4CEE /* 250Hz.wav */,
+				4312A20C2808CF7B007F4CEE /* 500Hz.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +145,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4312A20E2808CF7B007F4CEE /* 250Hz.wav in Resources */,
+				4312A20F2808CF7B007F4CEE /* 50Hz.wav in Resources */,
 				4312A2012808CD30007F4CEE /* LaunchScreen.storyboard in Resources */,
 				4312A1FE2808CD30007F4CEE /* Assets.xcassets in Resources */,
 				4312A1FC2808CD2D007F4CEE /* Main.storyboard in Resources */,
+				4312A2102808CF7B007F4CEE /* 500Hz.wav in Resources */,
+				4312A20D2808CF7B007F4CEE /* 125Hz.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
