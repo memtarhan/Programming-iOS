@@ -8,7 +8,7 @@
 import AudioToolbox
 import UIKit
 
-class ViewController: UIViewController {
+class SystemSoundsViewController: UIViewController {
     private var playing = false
 
     private var image: UIImage? {
